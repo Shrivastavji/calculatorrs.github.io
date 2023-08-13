@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald:wght@300;600&display=swap');
+
+*{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+}
+body{
+    background: linear-gradient(45deg,#0a0a0a, #3a4452);
+    
+  }
+  #main{
+    width: 420px;
+    height: 550px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+  }
+  input{
+    display: flex;
+    position: absolute;
+    color: white;
+    top: 55px;
+    left: -90px;
+    font-size: 55px;
+    background: transparent;
+    text-align: right;
+    border: none;
+    cursor: pointer;
+  }
+  #line{
+    width: 380px;
+    height: 1px;
+    background-color: white;
+    margin-top: 125px;
+    opacity: 0.5;
+    margin-left: 15px;
+  }
+  button{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    margin-left: 30px;
+    border: none;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+  }
+  #submit{
+    background-color: orange;
+  }
+  #assignment{
+    color: green;
+  }
+  @media (max-width: 640px) {
+        #main{
+            left: 3%;
+            width: 360px;
+        }
+        button{
+          width: 45px;
+          margin-left: 30px;
+        }
+        input{
+          left: -230px;
+        }
+        #line{
+          width: 330px;
+        }
+        
+  }
